@@ -9,6 +9,7 @@
         <!-- Bootstrap Javacript -->
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js" integrity="sha384-6khuMg9gaYr5AxOqhkVIODVIvm9ynTT5J4V1cfthmT+emCG6yVmEZsRHdxlotUnm" crossorigin="anonymous"></script>
         <!-- Own imported CSS -->
+        <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/style-contact.css">
     </head>
     <body>
@@ -21,9 +22,19 @@
             </div>
         </nav>
         <div class="container">
-            <div class="row">
+            <div class="row my-row">
                 <div class="col-1-sm"></div>
-                <div class="col-10-sm col-12-xs"></div>
+                <div class="col-10-sm col-12-xs">
+                    <h1 id="contact-header">Contact</h1>
+                    <h2 class="adjustments" id="name-header">Name</h2>
+                    <input type="text" name="name"  onfocus="this.value=''" value="John Smith" class="adjustments" id="name">
+                    <h2 class="adjustments" id="email-header">Email</h2>
+                    <input type="email" name="email" onfocus="this.value=''" value="example@gmail.com" class="adjustments" id="email">
+                    <h2 class="adjustments" id="message-header">Message</h2>
+                    <textarea rows="5" cols="50" class="adjustments" id="text-area"></textarea>
+                    <br>
+                    <button type="submit" class="adjustments" id="submit">Submit</button>
+                </div>
                 <div class="col-1-sm "></div>
             </div>
         </div>
