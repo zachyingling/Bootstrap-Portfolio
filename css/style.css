@@ -11,7 +11,7 @@
     background-color: teal;
     margin: 0px;
     padding: 20px 25px 20px 25px;
-    margin-left: 10%;
+    margin-left: 5%;
 }
 
 .border-1 {
@@ -26,11 +26,19 @@
 }
 
 /* Main Content styling */
+body {
+    background-image: url("/images/5-dots.png");
+}
 
+.main-content {
+    background-color: #ffffff;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 
 /* Footer styling */
 .jumbotron {
-    border-top: 3px solid teal;
+    border-top: 6px solid teal;
     background-color: #666666;
 }
 
@@ -39,6 +47,11 @@
     font-size: small;
     text-align: center;
 }
+
+footer {
+    margin-bottom: 0px !important;
+}
+
 
 @media (max-width: 640px){
     .name-header {
