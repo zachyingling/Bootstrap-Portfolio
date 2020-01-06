@@ -1,0 +1,55 @@
+/* Header styling */
+.navbar {
+    background-color: #ffffff;
+    padding: 0px;
+}
+
+.name-header {
+    color: white;
+    font-weight: bold;
+    font-size: 29px;
+    background-color: teal;
+    margin: 0px;
+    padding: 20px 25px 20px 25px;
+    margin-left: 10%;
+}
+
+.border-1 {
+    border-width: 3px !important;
+}
+
+.header-anchors a {
+    padding-right: 30px;
+    color: #666666;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* Main Content styling */
+
+
+/* Footer styling */
+.jumbotron {
+    border-top: 3px solid teal;
+    background-color: #666666;
+}
+
+#copyright-text {
+    color: white;
+    font-size: small;
+    text-align: center;
+}
+
+@media (max-width: 640px){
+    .name-header {
+        margin: 0px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .header-anchors {
+        padding-left: calc(50% - 121px);
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+}
