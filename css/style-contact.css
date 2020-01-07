@@ -1,0 +1,20 @@
+#contact-header {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    color: teal;
+    border-bottom: 3px solid #cccccc;
+}
+
+.main-content h2 {
+    font-size: 20px;
+    color: grey;
+}
+
+.main-content input, .main-content textarea {
+    margin-bottom: 20px;
+}
+
+.main-content {
+    padding: 40px;
+    margin-bottom: 100px;
+}
