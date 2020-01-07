@@ -1,0 +1,37 @@
+#about-header {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: teal;
+    border-bottom: 3px solid #cccccc;
+}
+
+img {
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#bio-paragraph, #hobbies-paragraph {
+    display: inline;
+    font-size: 20px;
+}
+
+#hobbies-header {
+    margin-top: 30px;
+    display: block;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.main-content {
+    padding: 30px !important;
+}
+
+@media (min-width: 990px){
+    .main-content {
+        margin-bottom: 200px;
+    }
+}
