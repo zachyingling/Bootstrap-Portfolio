@@ -38,7 +38,7 @@ body {
 
 /* Footer styling */
 .jumbotron {
-    border-top: 6px solid teal;
+    border-top: 4px solid teal;
     background-color: #666666;
 }
 
@@ -50,6 +50,11 @@ body {
 
 footer {
     margin-bottom: 0px !important;
+    position: relative;
+    width: 100%;
+    bottom: 0px;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
 }
 
 
