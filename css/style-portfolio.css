@@ -1,0 +1,68 @@
+.main-content {
+    padding: 40px;
+}
+
+#portfolio-header {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    color: teal;
+    border-bottom: 3px solid #cccccc;
+}
+
+.main-content img {
+    height: 100%;
+    width: 100%;
+}
+
+.main-content h2 {
+    text-align: center;
+    position: relative;
+    bottom: 100px;
+    color: white;
+    background-color: teal;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+.weightlifting, .computer, .friends {
+    float: left;
+}
+
+.video-games, .family {
+    float: right;
+}
+
+.col-6 {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+@media (max-width: 991px){
+    /* Resizing container to fit screen as it skrinks */
+    .col-6 {
+        height: calc(100% - 50%);
+        width: calc(100% - 50%);
+    }
+
+    .main-content h2 {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 640px){
+    /* Moving columns to their own rows */
+    .col-6 {
+        display: flex;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .weightlifting, .video-games, .computer, .family, .friends {
+        flex: 1;
+        margin-bottom: 50px;
+    }
+
+    .video-games, .family {
+        float: left;
+    }
+}
