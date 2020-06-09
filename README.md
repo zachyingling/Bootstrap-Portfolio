@@ -1,6 +1,6 @@
 # Bootstrap-Portfolio
-Some portfolio as my first one, but I was still trying to learn Bootstrap.
+This isn't my most up to date portfolio, but it is nice to see how much I have progressed in my journey of becoming a web developer.
 
 [Deployed Link](https://zachyingling.github.io/Bootstrap-Portfolio/)
 
-[Newest Portfolio](https://zachyingling.github.io/Updated-Portfolio/)
+[Newest Portfolio](https://zachyingling.github.io/)
